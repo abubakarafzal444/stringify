@@ -1,0 +1,31 @@
+.wrapper {
+  min-height: 500px;
+
+  width: 614px;
+  margin-right: 28px;
+}
+.storiesWrapper {
+  background-color: white;
+  border: 0.1px solid rgba(196, 196, 196, 0.692);
+  height: 120px;
+  padding: 16px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  overflow: scroll;
+}
+.storiesWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.storiesWrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.postsWrapper {
+  min-height: 500px;
+}
+.uploadWrapper {
+  margin-bottom: 15px;
+}

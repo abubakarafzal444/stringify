@@ -1,0 +1,93 @@
+.wrapper {
+  background-color: white;
+  padding-top: 5px;
+  /* height: 115px; */
+}
+.inputWraper {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  outline: none;
+  border: none;
+  height: 40px;
+  background-color: whitesmoke;
+  margin: 10px 40px 10px 30px;
+  width: 90%;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 20px;
+}
+.input::placeholder {
+  color: rgba(128, 128, 128, 0.623);
+  width: 100%;
+  font-weight: bold;
+}
+
+.bPara {
+  font-size: 8px;
+  color: green;
+  font-weight: bold;
+}
+.postButton {
+  width: 100px;
+  border: none;
+  outline: none;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: grey;
+  background-color: rgb(203, 228, 236);
+  cursor: pointer;
+}
+.postButton:hover {
+  background-color: rgb(175, 208, 219);
+}
+
+/* ///////// */
+.container {
+  padding: 0px 0px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 30px; */
+}
+/* color: "#0288D1" */
+.buttons {
+  background-color: #0288d1;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  width: 75px;
+  height: 35px;
+}
+.img {
+  width: 100%;
+  /* margin: 15px 0px; */
+  margin-top: 15px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.form1 {
+  position: relative;
+}
+.cross {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.192);
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.uploadDeleteButtons {
+  margin-top: 10px;
+}
+.form {
+  width: 100%;
+}

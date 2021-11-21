@@ -1,0 +1,57 @@
+.wrapper {
+  width: 293px;
+  max-height: 400px;
+}
+.contentWrapper {
+  height: 400px;
+  position: fixed;
+  width: 293px;
+  /* background-color: white; */
+}
+.userInfo {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+.dpWrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.dp {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.userTextInfo {
+  margin-left: 10px;
+  font-size: 13px;
+}
+.dpText {
+  display: flex;
+}
+.switch {
+  font-weight: 600;
+  color: #1976d2;
+  cursor: pointer;
+}
+.notifications {
+  display: flex;
+  justify-content: space-between;
+}
+.noti {
+  color: grey;
+  font-weight: 500;
+}
+.view {
+  color: rgb(27, 27, 27);
+  font-weight: 600;
+  font-size: 14px;
+}
+.view:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.notificationSection {
+  padding-top: 15px;
+}

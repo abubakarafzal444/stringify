@@ -1,0 +1,20 @@
+.blocksWrapper {
+  margin: 1px 5px;
+}
+.storyImgWrapper {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid #ec7aa0;
+}
+.storyImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.storyName {
+  margin-top: 5px;
+  text-align: center;
+  color: rgb(85, 84, 84);
+  font-size: 13px;
+}

@@ -1,0 +1,83 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentWrapper {
+  height: 70vh;
+  width: 613px;
+  margin-top: 12vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 50%;
+  border-radius: none;
+  outline: none;
+  height: 40px;
+  background-color: whitesmoke;
+  margin-bottom: 15px;
+  font-size: larger;
+  color: grey;
+  padding: 0px 10px;
+  font-size: medium;
+  border: 1px solid rgb(114, 187, 180);
+}
+.heading {
+  padding-bottom: 30px;
+}
+.loginButton {
+  width: 50%;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  background-color: rgb(35, 87, 82);
+  cursor: pointer;
+}
+.loginButton:hover {
+  background-color: rgb(56, 114, 108);
+}
+.signupPara {
+  margin-top: 5px;
+}
+.para {
+  color: rgb(85, 82, 82);
+  cursor: pointer;
+}
+.para:hover {
+  color: rgb(81, 135, 138);
+}
+.dialogWrapper {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 80px;
+  padding-top: 10px;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.buttonWrapper button {
+  width: 130px;
+  height: 39px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.buttonPara {
+  margin-left: 5px;
+  font-size: large;
+}

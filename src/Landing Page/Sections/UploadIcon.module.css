@@ -1,0 +1,41 @@
+.container {
+  padding: 0px 0px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+/* color: "#0288D1" */
+.buttons {
+  background-color: #0288d1;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  width: 75px;
+  height: 35px;
+}
+.img {
+  width: 100%;
+  /* margin: 15px 0px; */
+  margin-top: 15px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.form1 {
+  position: relative;
+}
+.cross {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.192);
+  text-align: center;
+  border: none;
+}
+.uploadDeleteButtons {
+  margin-top: 10px;
+}
